@@ -17,6 +17,10 @@ jobs:
       contents: write
 
     steps:
+      # Checkout the repository (Updated to v4 to prevent Node deprecation warnings)
+      - name: Checkout Repo
+        uses: actions/checkout@v4
+
       # Generates snake SVGs (Light & Dark theme)
       - name: Generate Snake SVG
         uses: Platane/snk/svg-only@v3
@@ -26,9 +30,9 @@ jobs:
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      # Deploy generated files to the 'output' branch
+      # Deploy generated files to the 'output' branch (Updated to v5 to fix Node 20 warning)
       - name: Deploy to output branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
+        uses: crazy-max/ghaction-github-pages@v5.0.0
         with:
           target_branch: output
           build_dir: dist
