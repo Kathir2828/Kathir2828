@@ -17,3 +17,5 @@ Here are some ideas to get you started:
 
 
 <img src="https://raw.githubusercontent.com/output/snake.svg" alt="Snake animation" />
+
+![snake gif](https://github.com/Kathir2828/Kathir2828/blob/output/github-contribution-grid-snake.gif)
