@@ -15,7 +15,10 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-
-<img src="https://raw.githubusercontent.com/output/snake.svg" alt="Snake animation" />
-
-![snake gif](https://github.com/Kathir2828/Kathir2828/blob/output/github-contribution-grid-snake.svg)
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kathir2828/Kathir2828/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kathir2828/Kathir2828/output/github-contribution-grid-snake.svg">
+    <img alt="GitHub Contribution Grid Snake" src="https://raw.githubusercontent.com/Kathir2828/Kathir2828/output/github-contribution-grid-snake.svg">
+  </picture>
+</div>
